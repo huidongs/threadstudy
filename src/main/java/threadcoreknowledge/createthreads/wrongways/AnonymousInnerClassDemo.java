@@ -4,7 +4,7 @@ package threadcoreknowledge.createthreads.wrongways;
  * @program: threadstudy
  * @auther: HuiDong
  * @date: 2020/7/18 11:22
- * @description:
+ * @description: 匿名内部类实现
  */
 public class AnonymousInnerClassDemo {
     public static void main(String[] args) {

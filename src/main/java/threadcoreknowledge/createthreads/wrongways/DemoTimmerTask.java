@@ -17,7 +17,7 @@ public class DemoTimmerTask {
             public void run() {
                 System.out.println(Thread.currentThread().getName());
             }
-        },1000,1000);
+        },1000,5000);
 
     }
 }
