@@ -18,7 +18,6 @@ public class RightWayStopThreadWithoutSleep implements Runnable {
         }
         System.out.println("任务运行结束了");
     }
-
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(new RightWayStopThreadWithoutSleep());
         thread.start();
