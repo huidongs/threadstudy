@@ -33,8 +33,9 @@ public class Join {
         thread1.start();
         thread2.start();
         System.out.println("开始等待子线程运行完毕");
-        thread1.join();
         thread2.join();
+        thread1.join();
+
         System.out.println("所有子线程执行完毕");
     }
 }

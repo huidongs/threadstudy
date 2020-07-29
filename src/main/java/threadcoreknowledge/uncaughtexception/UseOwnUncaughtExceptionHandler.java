@@ -1,4 +1,4 @@
-package uncaughtexception;
+package threadcoreknowledge.uncaughtexception;
 
 /**
  * @program: threadstudy
